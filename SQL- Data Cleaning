@@ -1,0 +1,23 @@
+use Hospital;
+
+go
+    -- TODO:: Data Cleaning : Make View of Patient Data with required columns and data formatting
+select
+    Patient_Id,
+    Format(patient_Admission_Date, 'yyyy-MM-dd') as Admission_Date,
+    Datepart (HOUR, patient_Admission_Date) as Admission_Hour,
+    Concat(patient_First_Inital, ' ', patient_Last_Name) as Patient_Name,
+    case
+        when patient_Gender = 'M' then 'Male'
+        when patient_Gender = 'F' then 'Female'
+        else 'N/A'
+    end as Patient_Gender,
+    Patient_Age,
+    Trim(patient_Race) as patient_Race,
+    Department_Referral,
+    patient_Admission_Flag,
+    Patient_Satisfaction_score,
+    patient_waittime,
+    patients_cm
+from
+    HospitalData
