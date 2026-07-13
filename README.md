@@ -91,5 +91,5 @@ This dashboard enables healthcare organizations to:
 ---
 
 ## Conclusion
-![Dashboard](/dashboard.png)
+![Dashboard](dashboard.png)
 The **Hospital Emergency Room Analysis** dashboard showcases how healthcare data can be transformed into meaningful insights that improve operational efficiency and patient care. By combining data modeling, visualization, and business intelligence techniques, this project provides a scalable analytical solution for monitoring Emergency Room performance and supporting informed management decisions.
