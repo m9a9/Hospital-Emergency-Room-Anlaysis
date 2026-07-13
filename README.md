@@ -46,7 +46,6 @@ Using modern data analytics techniques, this project demonstrates the complete a
 * Waiting Time Monitoring
 * Hourly Patient Traffic Analysis
 * Dynamic Filters and Slicers
-* Drill-Down Visualizations
 * Executive-Level Performance Dashboard
 
 ---
